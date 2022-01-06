@@ -1,0 +1,120 @@
+ 
+ #main{
+     
+     width: 1340px;
+     position: relative;
+     margin-right: 5px;
+     padding: 5px;
+    
+ }
+        #upr{
+            background-color:#d6f0f9;
+            padding: 10px;
+            margin: 10px;
+            height: 1.50in;
+            /* border-radius: 1px; */
+        }
+       #imge{
+            border-radius: 50%;
+            width:100px;
+            height: 100px;
+        }
+        #upr1
+        {
+            text-align: justify;
+            margin: 5px;
+            position:absolute;
+            top: 0;
+            right: 0;
+            padding-right: 40px;     
+           
+        }
+        #up12{
+            width:15px;
+            height:15px;
+        }
+        h3{
+            color:blue;
+        }
+        #low{
+            background-color: #e8eaf1;
+            padding: 10px;
+            margin: 10px;
+            height: 2in;
+         
+        }
+        .spc{
+          padding-left: 12px;
+            margin-left: 1px;
+            right: 5px;
+            width:1000px;
+        }
+       
+
+/* Clear floats after the columns */
+
+table{
+    border:1px gray;
+    width: 1365px;
+    padding: 10px;
+    margin: 10px;
+  }
+  th{
+      padding: 10px;
+    width: 250px;
+    height: 2px;
+    margin: 5px;
+  }
+  td{
+      padding: 10px;
+  }
+  .wor{
+      background-color: black;
+  }
+  .alignleft{
+    float: left;
+  }
+.alignright{
+    float: right;
+}
+#lower
+{
+    width: 250px;
+    height:2px;
+    padding: 10px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 8px;
+  }
+  .column1{
+    float: right;
+    
+    width: 40%;
+    padding: 8px;
+    }
+  
+    .row {
+        background-color: gray;
+       
+        width:1300px;
+      }
+    
+  
+  .row.column12 {
+    float: left;
+    width: 23.33%;
+  }
+  .row.column13{
+    float: right;
+    width: 23.33%;
+
+  }
+  /* Clear floats after the columns */
+  
+  .row1 {
+   
+    clear: both;
+    width:1300px;
+  }
